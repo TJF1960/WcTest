@@ -1,0 +1,22 @@
+{
+    "credits": [
+        {
+            "title": "WcTest Node Server",
+            "author": "Your Name",
+            "version": "1.0.0"
+        }
+    ],
+    "description": "Polls a WebControl board to get Temp1 value",
+    "language": "python3",
+    "executable": "python3",
+    "install": "install.sh",
+    "company": "Your Company",
+    "url": "",
+    "shortPoll": "30",
+    "longPoll": "60",
+    "heartbeat": "yes",
+    "customParams": {
+        "WcIp": "192.168.0.168"
+    }
+}
+
