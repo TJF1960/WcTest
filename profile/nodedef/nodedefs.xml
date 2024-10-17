@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeDefs>
+
+  <!-- Main Controller Node -->
+  <nodeDef id="controller_node" nodeType="139" nls="str1">
+    <sts>
+      <st id="ST" editor="cst" uom="25" /> <!-- Connection Status -->
+      <st id="GV0" editor="hb" uom="25" /> <!-- Heartbeat -->
+      <st id="GV1" editor="text" uom="56" /> <!-- WebControl Name -->
+      <st id="GV2" editor="text" uom="56" /> <!-- Time -->
+      <st id="GV3" editor="text" uom="56" /> <!-- fcounter -->
+      <st id="GV4" editor="text" uom="56" /> <!-- counter -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+    <isController>true</isController> <!-- Enable grouping/ungrouping -->
+  </nodeDef>
+
+  <!-- AIP Nodes (AIP1 to AIP3) -->
+  <nodeDef id="aip1_node" nodeType="140" nls="str2">
+    <sts>
+      <st id="GV0" editor="text" uom="56" /> <!-- AIP 1 -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="aip2_node" nodeType="141" nls="str3">
+    <sts>
+      <st id="GV0" editor="text" uom="56" /> <!-- AIP 2 -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="aip3_node" nodeType="142" nls="str4">
+    <sts>
+      <st id="GV0" editor="text" uom="56" /> <!-- AIP 3 -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <!-- Temp1 to Temp8 Nodes -->
+  <nodeDef id="temp1_node" nodeType="145" nls="str7">
+    <sts>
+      <st id="GV0" editor="tempf" uom="17,4" /> <!-- Temperature ts1 -->
+      <st id="GV1" editor="cst1" uom="25" /> <!-- Temperature Status ts1 -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="temp2_node" nodeType="146" nls="str8">
+    <sts>
+      <st id="GV0" editor="tempf" uom="17,4" /> <!-- Temperature ts2 -->
+      <st id="GV1" editor="cst1" uom="25" /> <!-- Temperature Status ts2 -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="temp3_node" nodeType="147" nls="str9">
+    <sts>
+      <st id="GV0" editor="tempf" uom="17,4" /> <!-- Temperature ts3 -->
+      <st id="GV1" editor="cst1" uom="25" /> <!-- Temperature Status ts3 -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="temp4_node" nodeType="148" nls="str10">
+    <sts>
+      <st id="GV0" editor="tempf" uom="17,4" /> <!-- Temperature ts4 -->
+      <st id="GV1" editor="cst1" uom="25" /> <!-- Temperature Status ts4 -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="temp5_node" nodeType="149" nls="str11">
+    <sts>
+      <st id="GV0" editor="tempf" uom="17,4" /> <!-- Temperature ts5 -->
+      <st id="GV1" editor="cst1" uom="25" /> <!-- Temperature Status ts5 -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="temp6_node" nodeType="150" nls="str12">
+    <sts>
+      <st id="GV0" editor="tempf" uom="17,4" /> <!-- Temperature ts6 -->
+      <st id="GV1" editor="cst1" uom="25" /> <!-- Temperature Status ts6 -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="temp7_node" nodeType="151" nls="str13">
+    <sts>
+      <st id="GV0" editor="tempf" uom="17,4" /> <!-- Temperature ts7 -->
+      <st id="GV1" editor="cst1" uom="25" /> <!-- Temperature Status ts7 -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="temp8_node" nodeType="152" nls="str14">
+    <sts>
+      <st id="GV0" editor="tempf" uom="17,4" /> <!-- Temperature ts8 -->
+      <st id="GV1" editor="cst1" uom="25" /> <!-- Temperature Status ts8 -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <!-- Var1 to Var8 Nodes -->
+  <nodeDef id="var1_node" nodeType="153" nls="str15">
+    <sts>
+      <st id="GV0" editor="text" uom="56" /> <!-- Variable 1 -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="var2_node" nodeType="154" nls="str16">
+    <sts>
+      <st id="GV0" editor="text" uom="56" /> <!-- Variable 2 -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="var3_node" nodeType="155" nls="str17">
+    <sts>
+      <st id="GV0" editor="text" uom="56" /> <!-- Variable 3 -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="var4_node" nodeType="156" nls="str18">
+    <sts>
+      <st id="GV0" editor="text" uom="56" /> <!-- Variable 4 -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="var5_node" nodeType="157" nls="str19">
+    <sts>
+      <st id="GV0" editor="text" uom="56" /> <!-- Variable 5 -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="var6_node" nodeType="158" nls="str20">
+    <sts>
+      <st id="GV0" editor="text" uom="56" /> <!-- Variable 6 -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="var7_node" nodeType="159" nls="str21">
+    <sts>
+      <st id="GV0" editor="text" uom="56" /> <!-- Variable 7 -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="var8_node" nodeType="160" nls="str22">
+    <sts>
+      <st id="GV0" editor="text" uom="56" /> <!-- Variable 8 -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <!-- IP1 to IP8 Nodes -->
+  <nodeDef id="ip1_node" nodeType="161" nls="str23">
+    <sts>
+      <st id="GV0" editor="text" uom="56" /> <!-- Input ip1 -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="ip2_node" nodeType="162" nls="str24">
+    <sts>
+      <st id="GV0" editor="text" uom="56" /> <!-- Input ip2 -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="ip3_node" nodeType="163" nls="str25">
+    <sts>
+      <st id="GV0" editor="text" uom="56" /> <!-- Input ip3 -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="ip4_node" nodeType="164" nls="str26">
+    <sts>
+      <st id="GV0" editor="text" uom="56" /> <!-- Input ip4 -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="ip5_node" nodeType="165" nls="str27">
+    <sts>
+      <st id="GV0" editor="text" uom="56" /> <!-- Input ip5 -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="ip6_node" nodeType="166" nls="str28">
+    <sts>
+      <st id="GV0" editor="text" uom="56" /> <!-- Input ip6 -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="ip7_node" nodeType="167" nls="str29">
+    <sts>
+      <st id="GV0" editor="text" uom="56" /> <!-- Input ip7 -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="ip8_node" nodeType="168" nls="str30">
+    <sts>
+      <st id="GV0" editor="text" uom="56" /> <!-- Input ip8 -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <!-- Output Nodes (Op1 to Op8) -->
+  <nodeDef id="op1_node" nodeType="169" nls="str31">
+    <sts>
+      <st id="GV0" editor="bool" uom="25" /> <!-- Output 1 State -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+        <cmd id="DON" /> <!-- Turn Output 1 ON -->
+        <cmd id="DOF" /> <!-- Turn Output 1 OFF -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="op2_node" nodeType="170" nls="str32">
+    <sts>
+      <st id="GV0" editor="bool" uom="25" /> <!-- Output 2 State -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+        <cmd id="DON" /> <!-- Turn Output 2 ON -->
+        <cmd id="DOF" /> <!-- Turn Output 2 OFF -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="op3_node" nodeType="171" nls="str33">
+    <sts>
+      <st id="GV0" editor="bool" uom="25" /> <!-- Output 3 State -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+        <cmd id="DON" /> <!-- Turn Output 3 ON -->
+        <cmd id="DOF" /> <!-- Turn Output 3 OFF -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="op4_node" nodeType="172" nls="str34">
+    <sts>
+      <st id="GV0" editor="bool" uom="25" /> <!-- Output 4 State -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+        <cmd id="DON" /> <!-- Turn Output 4 ON -->
+        <cmd id="DOF" /> <!-- Turn Output 4 OFF -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="op5_node" nodeType="173" nls="str35">
+    <sts>
+      <st id="GV0" editor="bool" uom="25" /> <!-- Output 5 State -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+        <cmd id="DON" /> <!-- Turn Output 5 ON -->
+        <cmd id="DOF" /> <!-- Turn Output 5 OFF -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="op6_node" nodeType="174" nls="str36">
+    <sts>
+      <st id="GV0" editor="bool" uom="25" /> <!-- Output 6 State -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+        <cmd id="DON" /> <!-- Turn Output 6 ON -->
+        <cmd id="DOF" /> <!-- Turn Output 6 OFF -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="op7_node" nodeType="175" nls="str37">
+    <sts>
+      <st id="GV0" editor="bool" uom="25" /> <!-- Output 7 State -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+        <cmd id="DON" /> <!-- Turn Output 7 ON -->
+        <cmd id="DOF" /> <!-- Turn Output 7 OFF -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="op8_node" nodeType="176" nls="str38">
+    <sts>
+      <st id="GV0" editor="bool" uom="25" /> <!-- Output 8 State -->
+    </sts>
+    <cmds>
+      <accepts>
+        <cmd id="QUERY" /> <!-- Query Command -->
+        <cmd id="DON" /> <!-- Turn Output 8 ON -->
+        <cmd id="DOF" /> <!-- Turn Output 8 OFF -->
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+</nodeDefs>

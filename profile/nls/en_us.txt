@@ -1,0 +1,190 @@
+# Main Controller Node
+ND-webcontrol_node-str-1 = WebControl Controller
+ND-webcontrol_node-ICON = EnergyMonitor
+ST-str1-ST-NAME = NodeServer Connection
+ST-str1-GV0-NAME = Heartbeat
+ST-str1-GV1-NAME = WebControl Name
+ST-str1-GV2-NAME = Time
+ST-str1-GV3-NAME = Frequency Counter
+ST-str1-GV4-NAME = Counter
+
+# AIP Nodes
+ND-aip1_node-str-1 = AIP Sensor 1
+ND-aip1_node-ICON = Input
+ST-str2-GV0-NAME = AIP 1
+
+ND-aip2_node-str-1 = AIP Sensor 2
+ND-aip2_node-ICON = Input
+ST-str3-GV0-NAME = AIP 2
+
+ND-aip3_node-str-1 = AIP Sensor 3
+ND-aip3_node-ICON = Input
+ST-str4-GV0-NAME = AIP 3
+
+# Temperature Nodes (Temp1 to Temp8)
+ND-temp1_node-str-1 = Temp Sensor 1
+ND-temp1_node-ICON = TempSensor
+ST-str7-GV0-NAME = Temp1
+ST-str7-GV1-NAME = Sensor Status 1
+
+ND-temp2_node-str-1 = Temperature Sensor 2
+ND-temp2_node-ICON = TempSensor
+ST-str8-GV0-NAME = Temperature 2
+ST-str8-GV1-NAME = Sensor Status 2
+
+ND-temp3_node-str-1 = Temperature Sensor 3
+ND-temp3_node-ICON = TempSensor
+ST-str9-GV0-NAME = Temperature 3
+ST-str9-GV1-NAME = Sensor Status 3
+
+ND-temp4_node-str-1 = Temperature Sensor 4
+ND-temp4_node-ICON = TempSensor
+ST-str10-GV0-NAME = Temperature 4
+ST-str10-GV1-NAME = Sensor Status 4
+
+ND-temp5_node-str-1 = Temperature Sensor 5
+ND-temp5_node-ICON = TempSensor
+ST-str11-GV0-NAME = Temperature 5
+ST-str11-GV1-NAME = Sensor Status 5
+
+ND-temp6_node-str-1 = Temperature Sensor 6
+ND-temp6_node-ICON = TempSensor
+ST-str12-GV0-NAME = Temperature 6
+ST-str12-GV1-NAME = Sensor Status 6
+
+ND-temp7_node-str-1 = Temperature Sensor 7
+ND-temp7_node-ICON = TempSensor
+ST-str13-GV0-NAME = Temperature 7
+ST-str13-GV1-NAME = Sensor Status 7
+
+ND-temp8_node-str-1 = Temperature Sensor 8
+ND-temp8_node-ICON = TempSensor
+ST-str14-GV0-NAME = Temperature 8
+ST-str14-GV1-NAME = Sensor Status 8
+
+# Variable Nodes (Var1 to Var8)
+ND-var1_node-str-1 = Variable 1
+ND-var1_node-ICON = PulseCounter
+ST-str15-GV0-NAME = Variable 1
+
+ND-var2_node-str-1 = Variable 2
+ND-var2_node-ICON = PulseCounter
+ST-str16-GV0-NAME = Variable 2
+
+ND-var3_node-str-1 = Variable 3
+ND-var3_node-ICON = PulseCounter
+ST-str17-GV0-NAME = Variable 3
+
+ND-var4_node-str-1 = Variable 4
+ND-var4_node-ICON = PulseCounter
+ST-str18-GV0-NAME = Variable 4
+
+ND-var5_node-str-1 = Variable 5
+ND-var5_node-ICON = PulseCounter
+ST-str19-GV0-NAME = Variable 5
+
+ND-var6_node-str-1 = Variable 6
+ND-var6_node-ICON = PulseCounter
+ST-str20-GV0-NAME = Variable 6
+
+ND-var7_node-str-1 = Variable 7
+ND-var7_node-ICON = PulseCounter
+ST-str21-GV0-NAME = Variable 7
+
+ND-var8_node-str-1 = Variable 8
+ND-var8_node-ICON = PulseCounter
+ST-str22-GV0-NAME = Variable 8
+
+# Input Nodes (IP1 to IP8)
+ND-ip1_node-str-1 = Input 1
+ND-ip1_node-ICON = Input
+ST-str23-GV0-NAME = Input 1
+
+ND-ip2_node-str-1 = Input 2
+ND-ip2_node-ICON = Input
+ST-str24-GV0-NAME = Input 2
+
+ND-ip3_node-str-1 = Input 3
+ND-ip3_node-ICON = Input
+ST-str25-GV0-NAME = Input 3
+
+ND-ip4_node-str-1 = Input 4
+ND-ip4_node-ICON = Input
+ST-str26-GV0-NAME = Input 4
+
+ND-ip5_node-str-1 = Input 5
+ND-ip5_node-ICON = Input
+ST-str27-GV0-NAME = Input 5
+
+ND-ip6_node-str-1 = Input 6
+ND-ip6_node-ICON = Input
+ST-str28-GV0-NAME = Input 6
+
+ND-ip7_node-str-1 = Input 7
+ND-ip7_node-ICON = Input
+ST-str29-GV0-NAME = Input 7
+
+ND-ip8_node-str-1 = Input 8
+ND-ip8_node-ICON = Input
+ST-str30-GV0-NAME = Input 8
+
+# Output Nodes (Op1 to Op8)
+ND-op1_node-str-1 = Output 1
+ND-op1_node-ICON = Output
+ST-str31-GV0-NAME = Output 1 State
+CMD-str31-ON-NAME = Turn Output 1 ON
+CMD-str31-OFF-NAME = Turn Output 1 OFF
+
+ND-op2_node-str-1 = Output 2
+ND-op2_node-ICON = Output
+ST-str32-GV0-NAME = Output 2 State
+CMD-str32-ON-NAME = Turn Output 2 ON
+CMD-str32-OFF-NAME = Turn Output 2 OFF
+
+ND-op3_node-str-1 = Output 3
+ND-op3_node-ICON = Output
+ST-str33-GV0-NAME = Output 3 State
+CMD-str33-ON-NAME = Turn Output 3 ON
+CMD-str33-OFF-NAME = Turn Output 3 OFF
+
+ND-op4_node-str-1 = Output 4
+ND-op4_node-ICON = Output
+ST-str34-GV0-NAME = Output 4 State
+CMD-str34-ON-NAME = Turn Output 4 ON
+CMD-str34-OFF-NAME = Turn Output 4 OFF
+
+ND-op5_node-str-1 = Output 5
+ND-op5_node-ICON = Output
+ST-str35-GV0-NAME = Output 5 State
+CMD-str35-ON-NAME = Turn Output 5 ON
+CMD-str35-OFF-NAME = Turn Output 5 OFF
+
+ND-op6_node-str-1 = Output 6
+ND-op6_node-ICON = Output
+ST-str36-GV0-NAME = Output 6 State
+CMD-str36-ON-NAME = Turn Output 6 ON
+CMD-str36-OFF-NAME = Turn Output 6 OFF
+
+ND-op7_node-str-1 = Output 7
+ND-op7_node-ICON = Output
+ST-str37-GV0-NAME = Output 7 State
+CMD-str37-ON-NAME = Turn Output 7 ON
+CMD-str37-OFF-NAME = Turn Output 7 OFF
+
+ND-op8_node-str-1 = Output 8
+ND-op8_node-ICON = Output
+ST-str38-GV0-NAME = Output 8 State
+CMD-str38-ON-NAME = Turn Output 8 ON
+CMD-str38-OFF-NAME = Turn Output 8 OFF
+
+# Commands
+CMD-str-QUERY-NAME = Query
+
+# Controller Status
+CST-0 = Disconnected
+CST-1 = Connected
+CST-2 = Failed
+
+# Temperature Sensor Status
+CST1-0 = Unbound
+CST1-1 = Bound
